@@ -14,7 +14,7 @@ openai
   .createCompletion({
     model: "text-davinci-003",
     prompt: "What is APi",
-    max_tokens: 100,
+    max_tokens: 1000,
     temperature: 0,
   })
   .then((response) => {
