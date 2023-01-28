@@ -1,5 +1,5 @@
 const express = require("express");
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
@@ -31,7 +31,7 @@ app.post("/chat", (req, res) => {
       return response?.data?.choices?.[0]?.text;
     })
     .then((answer) => {
-      // console.log({ answer });
+      console.log({ answer });
       const array = answer
         ?.split("\n")
         .filter((value) => value)
