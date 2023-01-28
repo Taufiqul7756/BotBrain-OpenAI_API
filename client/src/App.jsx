@@ -50,18 +50,18 @@ function App() {
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
                   alt=""
-                  class="avtar"
+                  class="avatar"
                 />
                 <p>{renderContent(qna)}</p>
               </div>
             );
           }
           return (
-            <div class="recieve chat">
+            <div class="receive chat">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png"
                 alt=""
-                class="avtar"
+                class="avatar"
               />
               <p>{renderContent(qna)}</p>
             </div>
@@ -69,11 +69,11 @@ function App() {
         })}
 
         {loading && (
-          <div class="recieve chat">
+          <div class="receive chat">
             <img
               src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png"
               alt=""
-              class="avtar"
+              class="avatar"
             />
             <p>Typing...</p>
           </div>

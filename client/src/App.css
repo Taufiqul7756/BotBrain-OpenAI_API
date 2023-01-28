@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(86, 89, 89);
+}
 .chat-input {
   display: flex;
 }
@@ -23,7 +26,7 @@
   display: flex;
   flex-direction: column;
 }
-.avtar {
+.avatar {
   height: 40px;
   margin: 5px 10px 0px 0px;
   border-radius: 50%;
@@ -34,7 +37,7 @@
 
 .chat {
   display: flex;
-  border-radius: 10px;
+  border-radius: 2px;
   padding: 10px;
   margin-top: 10px;
   width: 90%;
@@ -43,19 +46,19 @@
   flex-grow: 1;
 }
 
-.send .avtar {
+.send .avatar {
   order: 1;
 }
-.recieve .avtar {
+.receive .avatar {
   order: 0;
 }
 
 .send {
   align-self: flex-end;
-  background-color: rgb(245, 242, 214);
+  background-color: rgb(255, 255, 255);
 }
-.recieve {
-  background-color: rgb(220, 240, 243);
+.receive {
+  background-color: rgb(159, 166, 168);
 }
 
 .message-text {
