@@ -1,11 +1,11 @@
-// require("dotenv").config();
+require("dotenv").config();
 const express = require("express");
-// const OPENAI_API_KEY = process.env.SECRET_KEY;
+const OPENAI_API_KEY = process.env.SECRET_KEY;
 
 const { Configuration, OpenAIApi } = require("openai");
 const cors = require("cors");
 const configuration = new Configuration({
-//   apiKey: OPENAI_API_KEY,
+  apiKey: OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
 
